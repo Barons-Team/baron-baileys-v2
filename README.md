@@ -2,12 +2,12 @@
 
 <div align='center'>
 
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/7ucg/baron-baileys-v2/total)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Barons-Team/baron-baileys-v2/total)
 ![NPM Downloads](https://img.shields.io/npm/dw/%40whiskeysockets%2Fbaileys?label=npm&color=%23CB3837)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/7ucg/baron-baileys-v2)
-![GitHub License](https://img.shields.io/github/license/7ucg/baron-baileys-v2)
-![GitHub Repo stars](https://img.shields.io/github/stars/7ucg/baron-baileys-v2)
-![GitHub forks](https://img.shields.io/github/forks/7ucg/baron-baileys-v2)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Barons-Team/baron-baileys-v2)
+![GitHub License](https://img.shields.io/github/license/Barons-Team/baron-baileys-v2)
+![GitHub Repo stars](https://img.shields.io/github/stars/Barons-Team/baron-baileys-v2)
+![GitHub forks](https://img.shields.io/github/forks/Barons-Team/baron-baileys-v2)
 
 </div>
 
@@ -16,7 +16,7 @@
 This library was originally a project for **CS-2362 at Ashoka University** and is in no way affiliated with or endorsed by WhatsApp. Use at your own discretion. Do not spam people with this. We discourage any stalkerware, bulk or automated messaging usage. 
 
 #### Liability and License Notice
-Baileys and its maintainers cannot be held liable for misuse of this application, as stated in the [MIT license](https://github.com/7ucg/baron-baileys-v2/blob/main/LICENSE).
+Baileys and its maintainers cannot be held liable for misuse of this application, as stated in the [MIT license](https://github.com/Barons-Team/baron-baileys-v2/blob/main/LICENSE).
 The maintainers of Baileys do not in any way condone the use of this application in practices that violate the Terms of Service of WhatsApp. The maintainers of this application call upon the personal responsibility of its users to use this application in a fair way, as it is intended to be used.
 ##
 
@@ -42,7 +42,7 @@ yarn add baron-baileys
 
 Use the edge version (no guarantee of stability, but latest fixes + features)
 ```
-yarn add github:7ucg/baron-baileys-v2
+yarn add github:Barons-Team/baron-baileys-v2
 ```
 
 Then import your code using:
@@ -50,9 +50,6 @@ Then import your code using:
 import makeWASocket from 'baron-baileys-v2'
 ```
 
-# Links
-
-- [Docs](https://7ucg.github.io/baron-baileys-v2/)
 
 # Index
 
@@ -594,7 +591,7 @@ await sock.sendMessage(
 await sock.sendMessage(
     jid,
     {
-        text: 'Hi, this was sent using https://github.com/7ucg/baron-baileys-v2'
+        text: 'Hi, this was sent using https://github.com/Barons-Team/baron-baileys-v2'
     }
 )
 ```
@@ -713,7 +710,7 @@ const sendMsg = await sock.sendMessage(id, buttonMessage)
 
 //send a template message!
 const templateButtons = [
-    {index: 1, urlButton: {displayText: '⭐ Star Baileys on GitHub!', url: 'https://github.com/7ucg/baron-baileys-v2/'}},
+    {index: 1, urlButton: {displayText: '⭐ Star Baileys on GitHub!', url: 'https://github.com/Barons-Team/baron-baileys-v2/'}},
     {index: 2, callButton: {displayText: 'Call me!', phoneNumber: '+1 (234) 5678-901'}},
     {index: 3, quickReplyButton: {displayText: 'This is a reply, just like normal buttons!', id: 'id-like-buttons-message'}},
 ]
@@ -774,7 +771,7 @@ const sendMsg = await sock.sendMessage(id, buttonMessage)
 
 //send a template message with an image **attached**!
 const templateButtons = [
-  {index: 1, urlButton: {displayText: '⭐ Star Baileys on GitHub!', url: 'https://github.com/7ucg/baron-baileys-v2/'}},
+  {index: 1, urlButton: {displayText: '⭐ Star Baileys on GitHub!', url: 'https://github.com/Barons-Team/baron-baileys-v2/'}},
   {index: 2, callButton: {displayText: 'Call me!', phoneNumber: '+1 (234) 5678-901'}},
   {index: 3, quickReplyButton: {displayText: 'This is a reply, just like normal buttons!', id: 'id-like-buttons-message'}},
 ]
